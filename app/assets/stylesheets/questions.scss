@@ -71,11 +71,12 @@ form  {
   box-sizing: border-box;
   &:focus {
     outline: none;
-    box-shadow: 0 0 3pt 2pt rgb(253, 236, 255);
-    background-color: rgb(253, 236, 255);
+    box-shadow: 0 0 3pt 2pt rgb(206, 99, 218);
+  }
+  &:select {
+    background-color: rgb(216, 153, 223);
   }
 } 
-
 
 #submit {
   width: 100%;
@@ -87,5 +88,15 @@ form  {
   font-family: 'Raleway', sans-serif;
   font-size: 16px; 
   box-sizing: border-box;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 3pt 2pt rgb(206, 99, 218);
+  }
+  &:hover {
+    background-color: rgb(216, 153, 223);
+    cursor: pointer;
+  }
 }
+
+
 
