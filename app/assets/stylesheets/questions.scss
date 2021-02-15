@@ -69,7 +69,13 @@ form  {
   font-size: 14px; 
   padding: 8px;
   box-sizing: border-box;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 3pt 2pt rgb(253, 236, 255);
+    background-color: rgb(253, 236, 255);
+  }
 } 
+
 
 #submit {
   width: 100%;
